@@ -6,7 +6,7 @@ const PORT = config.port;
 
 async function startServer() {
   try {
-    // Dynamically import the database connection module
+   
     await connectDB();
 
     app.listen(PORT, () => {
